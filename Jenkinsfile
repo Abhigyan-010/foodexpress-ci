@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'python -m pytest'
+                bat '"C:\\Users\\Abhigyan Anand\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pip install pytest'
             }
         }
     }
